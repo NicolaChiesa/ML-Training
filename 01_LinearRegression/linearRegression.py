@@ -13,8 +13,8 @@ dataFolder = os.path.join(current_directory,"Data")
 file_path = os.path.join(dataFolder, "headBrain.csv")
 data = pd.read_csv(file_path)
 
-X = data.iloc[:, 1]
-Y = data.iloc[:, 2]
+X = data.iloc[:, 2]
+Y = data.iloc[:, 3]
 # plt.scatter(X, Y)
 # plt.xlabel('Age')
 # plt.ylabel('Head Circonference')

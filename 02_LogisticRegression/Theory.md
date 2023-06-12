@@ -31,6 +31,23 @@ Unlike linear regression model, that uses Ordinary Least Square for parameter es
 There can be infinite sets of regression coefficients. The maximum likelihood estimate is that set of regression coefficients for which the probability of getting the data we have observed is maximum. 
 If we have binary data, the probability of each outcome is simply π if it was a success, and 1−π otherwise. Therefore we have the likelihood function:
 
+![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/709d458a-028f-494b-a3bb-6c85e930854f)
+
+To determine the value of parameters, log of likelihood function is taken, since it does not change the properties of the function. 
+The log-likelihood is differentiated and using iterative techniques like Newton method, values of parameters that maximise the log-likelihood are determined.
+
+## Performance of Logistic Regression model:
+To evaluate the performance of a logistic regression model, Deviance is used in lieu of sum of squares calculations.
+
+• Null Deviance indicates the response predicted by a model with nothing but an intercept.
+
+• Model deviance indicates the response predicted by a model on adding independent variables. If the model deviance is significantly smaller than the null deviance, one can conclude that the parameter or set of parameters significantly improved model fit.
+
+• Another way to find the accuracy of model is by using Confusion Matrix.
+
+
+![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/aa41a2bf-1fd7-4af3-8693-f344fe1bbaba)
+
 
 ## Linear regression vs logistic regression
 Both linear and logistic regression are among the most popular models within data science, and open-source tools, like Python and R, make the computation for them quick and easy.

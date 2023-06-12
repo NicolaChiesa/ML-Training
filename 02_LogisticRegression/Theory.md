@@ -14,7 +14,7 @@ If we predict the probability via linear regression, we can state it as:
 
 ![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/ec99ebbf-e1ae-411d-a994-f1c5af8858d2)
 
-Linear regression model can generate the predicted probability as any number ranging from negative to positive infinity, whereas probability of an outcome can only lie between 0< P(x)<1.
+Linear regression model can generate the predicted probability as any number ranging from negative to positive infinity, whereas probability of an outcome can only lie between 0< P(x)<1, infact on the y my value shoul stay or in 0 or in 1 
 
 ![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/1c3e48b1-f24b-4f67-89d9-689972c2892b)![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/4168f115-aa52-446c-b8d2-909f1edab85c)
 ## Logit Function

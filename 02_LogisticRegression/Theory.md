@@ -44,6 +44,8 @@ If we have binary data, the probability of each outcome is simply π if it was a
 To determine the value of parameters, log of likelihood function is taken, since it does not change the properties of the function. 
 The log-likelihood is differentiated and using iterative techniques like Newton method, values of parameters that maximise the log-likelihood are determined.
 
+a volte forse si può anche prenderela log-loss function
+
 ## Performance of Logistic Regression model:
 To evaluate the performance of a logistic regression model, Deviance is used in lieu of sum of squares calculations.
 

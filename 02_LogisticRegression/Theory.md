@@ -47,6 +47,14 @@ The log-likelihood is differentiated and using iterative techniques like Newton 
 a volte forse si può anche prenderela log-loss function
 
 ## Performance of Logistic Regression model:
+
+Cose positive
+
+• Resistente agli overfitting dato che la funzione viende 'schiacciata' tra zero e uno 
+
+• Può essere esteso al multiclass classification 
+
+ 
 To evaluate the performance of a logistic regression model, Deviance is used in lieu of sum of squares calculations.
 
 • Null Deviance indicates the response predicted by a model with nothing but an intercept.

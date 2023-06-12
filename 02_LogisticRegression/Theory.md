@@ -26,6 +26,14 @@ Logistic regression can be expressed as:
 where, the left hand side is called the logit or log-odds function, and p(x)/(1-p(x)) is called odds.
 The odds signifies the ratio of probability of success to probability of failure. Therefore, in Logistic Regression, linear combination of inputs are mapped to the log(odds) - the output being equal to 1.
 
+If we take an inverse of the above function, we get:
+
+![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/4fb4f45b-21c3-4b41-abac-07023798a7b0)
+
+This is known as the Sigmoid function and it gives an S-shaped curve. It always gives a value of probability ranging from 0<p<1.
+
+![image](https://github.com/NicolaChiesa/ML-Training/assets/89846244/5752bd5e-0985-46a4-95a9-461c0a1eb108)
+
 ## Estimation of Regression Coefficients
 Unlike linear regression model, that uses Ordinary Least Square for parameter estimation, we use Maximum Likelihood Estimation. 
 There can be infinite sets of regression coefficients. The maximum likelihood estimate is that set of regression coefficients for which the probability of getting the data we have observed is maximum. 

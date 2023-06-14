@@ -9,7 +9,10 @@ plt.rcParams['figure.figsize'] = (10.0, 7.0)
 
 # Preprocessing Input data
 current_directory = os.getcwd()
-dataFolder = os.path.join(current_directory,"Data")
+print(current_directory)
+lessonFolder = os.path.join(current_directory,"01_LinearRegression")
+dataFolder = os.path.join(lessonFolder,"Data")
+print(dataFolder)
 file_path = os.path.join(dataFolder, "headBrain.csv")
 data = pd.read_csv(file_path)
 
